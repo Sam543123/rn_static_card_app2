@@ -24,7 +24,7 @@ export default function FancyCard() {
   )
 }
 
-const styles = StyleSheet.create({   
+const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
         fontWeight: 'bold',
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     },
     card: {
         flex: 1,
-        // justifyContent: 'center',
+        justifyContent: 'center',
         // width: 350,
         height: 360,
         borderRadius: 6,
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         marginBottom: 12,
         marginTop: 6,
-        flexShrink: 1  
+        flexShrink: 1
     },
     cardFooter: {
         color: '#000000'
